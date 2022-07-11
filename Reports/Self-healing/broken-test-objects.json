@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RegisterNow/setText_PasswordRegister",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027user_password-297\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RegisterNow/setText_PasswordRegister_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/MyAccount/span_Go to my account",
+      "brokenLocator": "//*[(text() \u003d \u0027My account\u0027 or . \u003d \u0027My account\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027About Us\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/MyAccount/span_Go to my account_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/MyAccount/txt_MyAccount",
+      "brokenLocator": "//*[(text() \u003d \u0027My account\u0027 or . \u003d \u0027My account\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027About Us\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/MyAccount/txt_MyAccount_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RegisterNow/input_Username or E-mail",
+      "brokenLocator": "//*[@type \u003d \u0027text\u0027 and @name \u003d \u0027username-298\u0027 and @id \u003d \u0027username-298\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RegisterNow/input_Username or E-mail_position.png"
+    }
+  ]
+}

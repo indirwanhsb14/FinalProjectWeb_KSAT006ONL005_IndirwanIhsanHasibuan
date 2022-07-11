@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RegisterNow/input_Username or E-mail",
+      "brokenLocator": "//*[@type \u003d \u0027text\u0027 and @name \u003d \u0027username-298\u0027 and @id \u003d \u0027username-298\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220711_124735/TS - Authentication/20220711_124736/Object Repository/RegisterNow/input_Username or E-mail_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RegisterNow/setText_PasswordRegister",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027user_password-297\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220711_124735/TS - Authentication/20220711_124736/Object Repository/RegisterNow/setText_PasswordRegister_attributes.png"
+    }
+  ]
+}

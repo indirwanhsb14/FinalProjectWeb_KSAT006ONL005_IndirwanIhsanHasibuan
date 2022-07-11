@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Authentication" time="62.042" tests="4" failures="0" errors="4">
+   <testsuite name="TS - Authentication" tests="4" failures="0" errors="4" time="62.042" skipped="0" timestamp="2022-07-11 12:22:08" hostname="095060 - LAPTOP-BRAVO08.bfi.co.id" id="Test Suites/TS - Authentication">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\BTDPKatalon\\FinalProjectWeb_KSAT006ONL005_IndirwanIhsanHasibuan\\Reports\\20220711_122056\\TS - Authentication\\20220711_122206"/>
+         <property name="logFiles" value="C:\\BTDPKatalon\\FinalProjectWeb_KSAT006ONL005_IndirwanIhsanHasibuan\\Reports\\20220711_122056\\TS - Authentication\\20220711_122206\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="095060 - LAPTOP-BRAVO08.bfi.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="7eecef4b1f8d5c7653e26e33abb27442"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Authentication/TC02 - Register Valid and Invalid" time="16.135" classname="Test Cases/Authentication/TC02 - Register Valid and Invalid" status="ERROR">
+         <error type="ERROR" message="Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-11 12:22:09 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC02 - Register Valid and Invalid: Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)
+
+
+2022-07-11 12:22:09 - [TEST_STEP][PASSED] - openBrowser(WebsiteUrl): Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:22:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-11 12:22:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-11 12:22:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:22:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-11 12:22:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-11 12:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Home/btn_RegisterNowMenu")): Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:22:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("RegisterNow/setText_UsernameRegister"), 3): Object 'Object Repository/RegisterNow/setText_UsernameRegister' is present
+
+2022-07-11 12:22:23 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterNow/setText_UsernameRegister' is present
+
+2022-07-11 12:22:23 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_UsernameRegister"), username): Text 'indirwan' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:22:24 - [MESSAGE][PASSED] - Text 'indirwan' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:22:24 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_EmailRegis"), email): Text 'indirwan@gmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:22:25 - [MESSAGE][PASSED] - Text 'indirwan@gmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:22:25 - [TEST_STEP][ERROR] - setText(findTestObject("RegisterNow/setText_PhoneNumber"), phone): Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)
+
+
+2022-07-11 12:22:25 - [MESSAGE][ERROR] - Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-07-11 12:22:09 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC02 - Register Valid and Invalid: Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC02 - Register Valid and Invalid" time="13.793" classname="Test Cases/Authentication/TC02 - Register Valid and Invalid" status="ERROR">
+         <error type="ERROR" message="Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-11 12:22:25 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC02 - Register Valid and Invalid: Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)
+
+
+2022-07-11 12:22:25 - [TEST_STEP][PASSED] - openBrowser(WebsiteUrl): Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:22:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-11 12:22:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-11 12:22:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-11 12:22:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:22:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-11 12:22:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-11 12:22:36 - [TEST_STEP][PASSED] - click(findTestObject("Home/btn_RegisterNowMenu")): Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:22:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("RegisterNow/setText_UsernameRegister"), 3): Object 'Object Repository/RegisterNow/setText_UsernameRegister' is present
+
+2022-07-11 12:22:37 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterNow/setText_UsernameRegister' is present
+
+2022-07-11 12:22:37 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_UsernameRegister"), username): Text 'ihsan' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:22:38 - [MESSAGE][PASSED] - Text 'ihsan' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:22:38 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_EmailRegis"), email): Text 'ihsan@gmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:22:39 - [MESSAGE][PASSED] - Text 'ihsan@gmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:22:39 - [TEST_STEP][ERROR] - setText(findTestObject("RegisterNow/setText_PhoneNumber"), phone): Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)
+
+
+2022-07-11 12:22:39 - [MESSAGE][ERROR] - Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-07-11 12:22:25 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC02 - Register Valid and Invalid: Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC02 - Register Valid and Invalid" time="13.457" classname="Test Cases/Authentication/TC02 - Register Valid and Invalid" status="ERROR">
+         <error type="ERROR" message="Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-11 12:22:39 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC02 - Register Valid and Invalid: Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)
+
+
+2022-07-11 12:22:39 - [TEST_STEP][PASSED] - openBrowser(WebsiteUrl): Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:22:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-11 12:22:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-11 12:22:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-11 12:22:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:22:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-11 12:22:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-11 12:22:49 - [TEST_STEP][PASSED] - click(findTestObject("Home/btn_RegisterNowMenu")): Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:22:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("RegisterNow/setText_UsernameRegister"), 3): Object 'Object Repository/RegisterNow/setText_UsernameRegister' is present
+
+2022-07-11 12:22:51 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterNow/setText_UsernameRegister' is present
+
+2022-07-11 12:22:51 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_UsernameRegister"), username): Text 'Tom' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:22:51 - [MESSAGE][PASSED] - Text 'Tom' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:22:51 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_EmailRegis"), email): Text 'tomhardygmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:22:52 - [MESSAGE][PASSED] - Text 'tomhardygmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:22:52 - [TEST_STEP][ERROR] - setText(findTestObject("RegisterNow/setText_PhoneNumber"), phone): Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)
+
+
+2022-07-11 12:22:52 - [MESSAGE][ERROR] - Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-07-11 12:22:39 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC02 - Register Valid and Invalid: Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC02 - Register Valid and Invalid" time="18.08" classname="Test Cases/Authentication/TC02 - Register Valid and Invalid" status="ERROR">
+         <error type="ERROR" message="Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-11 12:22:52 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC02 - Register Valid and Invalid: Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)
+
+
+2022-07-11 12:22:52 - [TEST_STEP][PASSED] - openBrowser(WebsiteUrl): Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:22:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-11 12:22:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-11 12:22:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-11 12:23:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:23:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-11 12:23:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-11 12:23:08 - [TEST_STEP][PASSED] - click(findTestObject("Home/btn_RegisterNowMenu")): Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:23:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("RegisterNow/setText_UsernameRegister"), 3): Object 'Object Repository/RegisterNow/setText_UsernameRegister' is present
+
+2022-07-11 12:23:09 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterNow/setText_UsernameRegister' is present
+
+2022-07-11 12:23:09 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_UsernameRegister"), username): Text 'Hardy' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:23:10 - [MESSAGE][PASSED] - Text 'Hardy' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:23:10 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_EmailRegis"), email): Text 'hardy@gmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:23:10 - [MESSAGE][PASSED] - Text 'hardy@gmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:23:10 - [TEST_STEP][ERROR] - setText(findTestObject("RegisterNow/setText_PhoneNumber"), phone): Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)
+
+
+2022-07-11 12:23:10 - [MESSAGE][ERROR] - Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-07-11 12:22:52 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC02 - Register Valid and Invalid: Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-11 12:22:08 - [TEST_SUITE][ERROR] - TS - Authentication: Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-07-11 12:22:08 - [TEST_SUITE][ERROR] - TS - Authentication: Test Cases/Authentication/TC02 - Register Valid and Invalid FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: phone for class: Script1657515876313
+	at TC02 - Register Valid and Invalid.run(TC02 - Register Valid and Invalid:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657516926240.run(TempTestSuite1657516926240.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

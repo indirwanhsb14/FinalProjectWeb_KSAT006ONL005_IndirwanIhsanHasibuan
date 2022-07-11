@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Authentication" time="470.744" tests="4" failures="0" errors="0">
+   <testsuite name="TS - Authentication" tests="4" failures="0" errors="0" time="470.744" skipped="0" timestamp="2022-07-11 12:47:39" hostname="095060 - LAPTOP-BRAVO08.bfi.co.id" id="Test Suites/TS - Authentication">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\BTDPKatalon\\FinalProjectWeb_KSAT006ONL005_IndirwanIhsanHasibuan\\Reports\\20220711_124735\\TS - Authentication\\20220711_124736"/>
+         <property name="logFiles" value="C:\\BTDPKatalon\\FinalProjectWeb_KSAT006ONL005_IndirwanIhsanHasibuan\\Reports\\20220711_124735\\TS - Authentication\\20220711_124736\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="095060 - LAPTOP-BRAVO08.bfi.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="693f32f33e3d9d6d39449ebc9d33a087"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Authentication/TC02 - Register Valid and Invalid" time="125.614" classname="Test Cases/Authentication/TC02 - Register Valid and Invalid" status="PASSED">
+         <system-out><![CDATA[2022-07-11 12:47:40 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC02 - Register Valid and Invalid: Test Cases/Authentication/TC02 - Register Valid and Invalid
+
+2022-07-11 12:47:40 - [TEST_STEP][PASSED] - openBrowser(WebsiteUrl): Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:47:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-11 12:47:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-11 12:47:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:47:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-11 12:47:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-11 12:47:57 - [TEST_STEP][PASSED] - click(findTestObject("Home/btn_RegisterNowMenu")): Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:47:59 - [TEST_STEP][PASSED] - clearText(findTestObject("RegisterNow/input_Username or E-mail"), STOP_ON_FAILURE): Text of object 'Object Repository/RegisterNow/input_Username or E-mail' is cleared
+
+2022-07-11 12:48:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'username-298' and @id = 'username-298']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:48:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RegisterNow/input_Username or E-mail'. Try using Self-healing.
+
+2022-07-11 12:48:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='username-298']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:48:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='username-298']'.
+
+2022-07-11 12:48:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='um_field_298_username']/div[2]/input'.
+
+2022-07-11 12:48:33 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[2]/input'.
+
+2022-07-11 12:48:33 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/BTDPKatalon/FinalProjectWeb_KSAT006ONL005_IndirwanIhsanHasibuan/Reports/Self-healing/Object Repository/RegisterNow/input_Username or E-mail_position.png
+
+2022-07-11 12:48:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RegisterNow/input_Username or E-mail' was broken. Propose an alternative one: '//div[2]/input'.
+
+2022-07-11 12:48:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/RegisterNow/input_Username or E-mail' is cleared
+
+2022-07-11 12:48:33 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_UsernameRegister"), username): Text 'indirwan' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:48:34 - [MESSAGE][PASSED] - Text 'indirwan' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:48:34 - [TEST_STEP][PASSED] - clearText(findTestObject("RegisterNow/setText_EmailRegis")): Text of object 'Object Repository/RegisterNow/setText_EmailRegis' is cleared
+
+2022-07-11 12:48:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/RegisterNow/setText_EmailRegis' is cleared
+
+2022-07-11 12:48:35 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_EmailRegis"), email): Text 'indirwan@gmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:48:36 - [MESSAGE][PASSED] - Text 'indirwan@gmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:48:36 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_PhoneNumber"), phonenumber): Text '82354678900' is set on object 'Object Repository/RegisterNow/setText_PhoneNumber'
+
+2022-07-11 12:48:36 - [MESSAGE][PASSED] - Text '82354678900' is set on object 'Object Repository/RegisterNow/setText_PhoneNumber'
+
+2022-07-11 12:48:36 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_PasswordRegister"), password): Text 'pass123' is set on object 'Object Repository/RegisterNow/setText_PasswordRegister'
+
+2022-07-11 12:49:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:49:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RegisterNow/setText_PasswordRegister'. Try using Self-healing.
+
+2022-07-11 12:49:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RegisterNow/setText_PasswordRegister' was broken. Propose an alternative one: '//input[@id='user_password-297']'.
+
+2022-07-11 12:49:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:49:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RegisterNow/setText_PasswordRegister'. Try using Self-healing.
+
+2022-07-11 12:49:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RegisterNow/setText_PasswordRegister' was broken. Propose an alternative one: '//input[@id='user_password-297']'.
+
+2022-07-11 12:49:40 - [MESSAGE][PASSED] - Text 'pass123' is set on object 'Object Repository/RegisterNow/setText_PasswordRegister'
+
+2022-07-11 12:49:40 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_ConfirmPassword"), confirmpassword): Text 'pass123' is set on object 'Object Repository/RegisterNow/setText_ConfirmPassword'
+
+2022-07-11 12:49:41 - [MESSAGE][PASSED] - Text 'pass123' is set on object 'Object Repository/RegisterNow/setText_ConfirmPassword'
+
+2022-07-11 12:49:41 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_Address"), address): Text 'Jl. Duku Atas' is set on object 'Object Repository/RegisterNow/setText_Address'
+
+2022-07-11 12:49:41 - [MESSAGE][PASSED] - Text 'Jl. Duku Atas' is set on object 'Object Repository/RegisterNow/setText_Address'
+
+2022-07-11 12:49:41 - [TEST_STEP][PASSED] - click(findTestObject("RegisterNow/btn_RegisterNow"), STOP_ON_FAILURE): Object: 'Object Repository/RegisterNow/btn_RegisterNow' is clicked on
+
+2022-07-11 12:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterNow/btn_RegisterNow' is clicked on
+
+2022-07-11 12:49:44 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-07-11 12:49:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC02 - Register Valid and Invalid" time="114.989" classname="Test Cases/Authentication/TC02 - Register Valid and Invalid" status="PASSED">
+         <system-out><![CDATA[2022-07-11 12:49:45 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC02 - Register Valid and Invalid: Test Cases/Authentication/TC02 - Register Valid and Invalid
+
+2022-07-11 12:49:45 - [TEST_STEP][PASSED] - openBrowser(WebsiteUrl): Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:49:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-11 12:49:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-11 12:49:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:49:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-11 12:49:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-11 12:49:58 - [TEST_STEP][PASSED] - click(findTestObject("Home/btn_RegisterNowMenu")): Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:49:58 - [TEST_STEP][PASSED] - clearText(findTestObject("RegisterNow/input_Username or E-mail"), STOP_ON_FAILURE): Text of object 'Object Repository/RegisterNow/input_Username or E-mail' is cleared
+
+2022-07-11 12:50:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'username-298' and @id = 'username-298']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:50:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RegisterNow/input_Username or E-mail'. Try using Self-healing.
+
+2022-07-11 12:50:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RegisterNow/input_Username or E-mail' was broken. Propose an alternative one: '//div[2]/input'.
+
+2022-07-11 12:50:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/RegisterNow/input_Username or E-mail' is cleared
+
+2022-07-11 12:50:30 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_UsernameRegister"), username): Text 'ihsan' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:50:31 - [MESSAGE][PASSED] - Text 'ihsan' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:50:31 - [TEST_STEP][PASSED] - clearText(findTestObject("RegisterNow/setText_EmailRegis")): Text of object 'Object Repository/RegisterNow/setText_EmailRegis' is cleared
+
+2022-07-11 12:50:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/RegisterNow/setText_EmailRegis' is cleared
+
+2022-07-11 12:50:31 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_EmailRegis"), email): Text 'ihsan@gmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:50:32 - [MESSAGE][PASSED] - Text 'ihsan@gmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:50:32 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_PhoneNumber"), phonenumber): Text '81367889043' is set on object 'Object Repository/RegisterNow/setText_PhoneNumber'
+
+2022-07-11 12:50:33 - [MESSAGE][PASSED] - Text '81367889043' is set on object 'Object Repository/RegisterNow/setText_PhoneNumber'
+
+2022-07-11 12:50:33 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_PasswordRegister"), password): Text 'pas246' is set on object 'Object Repository/RegisterNow/setText_PasswordRegister'
+
+2022-07-11 12:51:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:51:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RegisterNow/setText_PasswordRegister'. Try using Self-healing.
+
+2022-07-11 12:51:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RegisterNow/setText_PasswordRegister' was broken. Propose an alternative one: '//input[@id='user_password-297']'.
+
+2022-07-11 12:51:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:51:35 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RegisterNow/setText_PasswordRegister'. Try using Self-healing.
+
+2022-07-11 12:51:36 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RegisterNow/setText_PasswordRegister' was broken. Propose an alternative one: '//input[@id='user_password-297']'.
+
+2022-07-11 12:51:36 - [MESSAGE][PASSED] - Text 'pas246' is set on object 'Object Repository/RegisterNow/setText_PasswordRegister'
+
+2022-07-11 12:51:36 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_ConfirmPassword"), confirmpassword): Text 'pas245' is set on object 'Object Repository/RegisterNow/setText_ConfirmPassword'
+
+2022-07-11 12:51:36 - [MESSAGE][PASSED] - Text 'pas245' is set on object 'Object Repository/RegisterNow/setText_ConfirmPassword'
+
+2022-07-11 12:51:36 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_Address"), address): Text 'Jl. Duren Jatuh' is set on object 'Object Repository/RegisterNow/setText_Address'
+
+2022-07-11 12:51:37 - [MESSAGE][PASSED] - Text 'Jl. Duren Jatuh' is set on object 'Object Repository/RegisterNow/setText_Address'
+
+2022-07-11 12:51:37 - [TEST_STEP][PASSED] - click(findTestObject("RegisterNow/btn_RegisterNow"), STOP_ON_FAILURE): Object: 'Object Repository/RegisterNow/btn_RegisterNow' is clicked on
+
+2022-07-11 12:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterNow/btn_RegisterNow' is clicked on
+
+2022-07-11 12:51:40 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-07-11 12:51:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC02 - Register Valid and Invalid" time="114.054" classname="Test Cases/Authentication/TC02 - Register Valid and Invalid" status="PASSED">
+         <system-out><![CDATA[2022-07-11 12:51:40 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC02 - Register Valid and Invalid: Test Cases/Authentication/TC02 - Register Valid and Invalid
+
+2022-07-11 12:51:40 - [TEST_STEP][PASSED] - openBrowser(WebsiteUrl): Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:51:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-11 12:51:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-11 12:51:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:51:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-11 12:51:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-11 12:51:52 - [TEST_STEP][PASSED] - click(findTestObject("Home/btn_RegisterNowMenu")): Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:51:52 - [TEST_STEP][PASSED] - clearText(findTestObject("RegisterNow/input_Username or E-mail"), STOP_ON_FAILURE): Text of object 'Object Repository/RegisterNow/input_Username or E-mail' is cleared
+
+2022-07-11 12:52:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'username-298' and @id = 'username-298']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:52:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RegisterNow/input_Username or E-mail'. Try using Self-healing.
+
+2022-07-11 12:52:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RegisterNow/input_Username or E-mail' was broken. Propose an alternative one: '//div[2]/input'.
+
+2022-07-11 12:52:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/RegisterNow/input_Username or E-mail' is cleared
+
+2022-07-11 12:52:24 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_UsernameRegister"), username): Text 'Tom' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:52:25 - [MESSAGE][PASSED] - Text 'Tom' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:52:25 - [TEST_STEP][PASSED] - clearText(findTestObject("RegisterNow/setText_EmailRegis")): Text of object 'Object Repository/RegisterNow/setText_EmailRegis' is cleared
+
+2022-07-11 12:52:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/RegisterNow/setText_EmailRegis' is cleared
+
+2022-07-11 12:52:25 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_EmailRegis"), email): Text 'tomhardygmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:52:26 - [MESSAGE][PASSED] - Text 'tomhardygmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:52:26 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_PhoneNumber"), phonenumber): Text '8778912345' is set on object 'Object Repository/RegisterNow/setText_PhoneNumber'
+
+2022-07-11 12:52:27 - [MESSAGE][PASSED] - Text '8778912345' is set on object 'Object Repository/RegisterNow/setText_PhoneNumber'
+
+2022-07-11 12:52:27 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_PasswordRegister"), password): Text 'pas247' is set on object 'Object Repository/RegisterNow/setText_PasswordRegister'
+
+2022-07-11 12:52:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:52:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RegisterNow/setText_PasswordRegister'. Try using Self-healing.
+
+2022-07-11 12:52:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RegisterNow/setText_PasswordRegister' was broken. Propose an alternative one: '//input[@id='user_password-297']'.
+
+2022-07-11 12:53:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:53:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RegisterNow/setText_PasswordRegister'. Try using Self-healing.
+
+2022-07-11 12:53:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RegisterNow/setText_PasswordRegister' was broken. Propose an alternative one: '//input[@id='user_password-297']'.
+
+2022-07-11 12:53:30 - [MESSAGE][PASSED] - Text 'pas247' is set on object 'Object Repository/RegisterNow/setText_PasswordRegister'
+
+2022-07-11 12:53:30 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_ConfirmPassword"), confirmpassword): Text 'pas247' is set on object 'Object Repository/RegisterNow/setText_ConfirmPassword'
+
+2022-07-11 12:53:30 - [MESSAGE][PASSED] - Text 'pas247' is set on object 'Object Repository/RegisterNow/setText_ConfirmPassword'
+
+2022-07-11 12:53:30 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_Address"), address): Text 'Jl. Rambutan' is set on object 'Object Repository/RegisterNow/setText_Address'
+
+2022-07-11 12:53:31 - [MESSAGE][PASSED] - Text 'Jl. Rambutan' is set on object 'Object Repository/RegisterNow/setText_Address'
+
+2022-07-11 12:53:31 - [TEST_STEP][PASSED] - click(findTestObject("RegisterNow/btn_RegisterNow"), STOP_ON_FAILURE): Object: 'Object Repository/RegisterNow/btn_RegisterNow' is clicked on
+
+2022-07-11 12:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterNow/btn_RegisterNow' is clicked on
+
+2022-07-11 12:53:34 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-07-11 12:53:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC02 - Register Valid and Invalid" time="115.288" classname="Test Cases/Authentication/TC02 - Register Valid and Invalid" status="PASSED">
+         <system-out><![CDATA[2022-07-11 12:53:35 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC02 - Register Valid and Invalid: Test Cases/Authentication/TC02 - Register Valid and Invalid
+
+2022-07-11 12:53:35 - [TEST_STEP][PASSED] - openBrowser(WebsiteUrl): Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:53:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-11 12:53:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-11 12:53:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://kotakoki.wijaysali.my.id/'
+
+2022-07-11 12:53:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-11 12:53:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-11 12:53:46 - [TEST_STEP][PASSED] - click(findTestObject("Home/btn_RegisterNowMenu")): Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/btn_RegisterNowMenu' is clicked on
+
+2022-07-11 12:53:47 - [TEST_STEP][PASSED] - clearText(findTestObject("RegisterNow/input_Username or E-mail"), STOP_ON_FAILURE): Text of object 'Object Repository/RegisterNow/input_Username or E-mail' is cleared
+
+2022-07-11 12:54:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'username-298' and @id = 'username-298']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:54:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RegisterNow/input_Username or E-mail'. Try using Self-healing.
+
+2022-07-11 12:54:18 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RegisterNow/input_Username or E-mail' was broken. Propose an alternative one: '//div[2]/input'.
+
+2022-07-11 12:54:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/RegisterNow/input_Username or E-mail' is cleared
+
+2022-07-11 12:54:18 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_UsernameRegister"), username): Text 'Hardy' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:54:19 - [MESSAGE][PASSED] - Text 'Hardy' is set on object 'Object Repository/RegisterNow/setText_UsernameRegister'
+
+2022-07-11 12:54:19 - [TEST_STEP][PASSED] - clearText(findTestObject("RegisterNow/setText_EmailRegis")): Text of object 'Object Repository/RegisterNow/setText_EmailRegis' is cleared
+
+2022-07-11 12:54:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/RegisterNow/setText_EmailRegis' is cleared
+
+2022-07-11 12:54:20 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_EmailRegis"), email): Text 'hardy@gmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:54:20 - [MESSAGE][PASSED] - Text 'hardy@gmail.com' is set on object 'Object Repository/RegisterNow/setText_EmailRegis'
+
+2022-07-11 12:54:20 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_PhoneNumber"), phonenumber): Text '' is set on object 'Object Repository/RegisterNow/setText_PhoneNumber'
+
+2022-07-11 12:54:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RegisterNow/setText_PhoneNumber'
+
+2022-07-11 12:54:21 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_PasswordRegister"), password): Text 'pas123' is set on object 'Object Repository/RegisterNow/setText_PasswordRegister'
+
+2022-07-11 12:54:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:54:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RegisterNow/setText_PasswordRegister'. Try using Self-healing.
+
+2022-07-11 12:54:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RegisterNow/setText_PasswordRegister' was broken. Propose an alternative one: '//input[@id='user_password-297']'.
+
+2022-07-11 12:55:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-11 12:55:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/RegisterNow/setText_PasswordRegister'. Try using Self-healing.
+
+2022-07-11 12:55:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/RegisterNow/setText_PasswordRegister' was broken. Propose an alternative one: '//input[@id='user_password-297']'.
+
+2022-07-11 12:55:24 - [MESSAGE][PASSED] - Text 'pas123' is set on object 'Object Repository/RegisterNow/setText_PasswordRegister'
+
+2022-07-11 12:55:24 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_ConfirmPassword"), confirmpassword): Text 'pas123' is set on object 'Object Repository/RegisterNow/setText_ConfirmPassword'
+
+2022-07-11 12:55:25 - [MESSAGE][PASSED] - Text 'pas123' is set on object 'Object Repository/RegisterNow/setText_ConfirmPassword'
+
+2022-07-11 12:55:25 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterNow/setText_Address"), address): Text 'Jl. Semangka' is set on object 'Object Repository/RegisterNow/setText_Address'
+
+2022-07-11 12:55:26 - [MESSAGE][PASSED] - Text 'Jl. Semangka' is set on object 'Object Repository/RegisterNow/setText_Address'
+
+2022-07-11 12:55:26 - [TEST_STEP][PASSED] - click(findTestObject("RegisterNow/btn_RegisterNow"), STOP_ON_FAILURE): Object: 'Object Repository/RegisterNow/btn_RegisterNow' is clicked on
+
+2022-07-11 12:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterNow/btn_RegisterNow' is clicked on
+
+2022-07-11 12:55:29 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-07-11 12:55:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-11 12:47:39 - [TEST_SUITE][PASSED] - TS - Authentication: Test Cases/Authentication/TC02 - Register Valid and Invalid]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

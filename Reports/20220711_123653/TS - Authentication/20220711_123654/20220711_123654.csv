@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Authentication,Chrome 103.0.5060.114,,,2022-07-11 12:36:57,2022-07-11 12:38:43,1m - 45.783s,ERROR
+,,,,,,,
+Test Cases/Authentication/TC02 - Register Valid and Invalid,Chrome 103.0.5060.114,,,2022-07-11 12:36:57,2022-07-11 12:37:15,17.814s,ERROR
+openBrowser(WebsiteUrl),Chrome 103.0.5060.114,,,2022-07-11 12:36:58,2022-07-11 12:37:06,8.351s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-11 12:37:06,2022-07-11 12:37:11,5.053s,PASSED
+"click(findTestObject(""Home/btn_RegisterNowMenu""))",Chrome 103.0.5060.114,,,2022-07-11 12:37:11,2022-07-11 12:37:12,1.353s,PASSED
+"verifyElementPresent(findTestObject(""RegisterNow/setText_UsernameRegister""), 3)",Chrome 103.0.5060.114,,,2022-07-11 12:37:12,2022-07-11 12:37:13,0.514s,PASSED
+"setText(findTestObject(""RegisterNow/setText_UsernameRegister""), username)",Chrome 103.0.5060.114,,,2022-07-11 12:37:13,2022-07-11 12:37:14,1.013s,PASSED
+"setText(findTestObject(""RegisterNow/setText_EmailRegis""), email)",Chrome 103.0.5060.114,,,2022-07-11 12:37:14,2022-07-11 12:37:15,0.901s,PASSED
+"setText(findTestObject(""RegisterNow/setText_PhoneNumber""), phone)",Chrome 103.0.5060.114,,,2022-07-11 12:37:15,2022-07-11 12:37:15,0.205s,ERROR
+,,,,,,,
+Test Cases/Authentication/TC02 - Register Valid and Invalid,Chrome 103.0.5060.114,,,2022-07-11 12:37:15,2022-07-11 12:37:40,25.063s,ERROR
+openBrowser(WebsiteUrl),Chrome 103.0.5060.114,,,2022-07-11 12:37:15,2022-07-11 12:37:32,16.750s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-11 12:37:32,2022-07-11 12:37:37,5.011s,PASSED
+"click(findTestObject(""Home/btn_RegisterNowMenu""))",Chrome 103.0.5060.114,,,2022-07-11 12:37:37,2022-07-11 12:37:38,1.183s,PASSED
+"verifyElementPresent(findTestObject(""RegisterNow/setText_UsernameRegister""), 3)",Chrome 103.0.5060.114,,,2022-07-11 12:37:38,2022-07-11 12:37:39,0.573s,PASSED
+"setText(findTestObject(""RegisterNow/setText_UsernameRegister""), username)",Chrome 103.0.5060.114,,,2022-07-11 12:37:39,2022-07-11 12:37:39,0.701s,PASSED
+"setText(findTestObject(""RegisterNow/setText_EmailRegis""), email)",Chrome 103.0.5060.114,,,2022-07-11 12:37:39,2022-07-11 12:37:40,0.755s,PASSED
+"setText(findTestObject(""RegisterNow/setText_PhoneNumber""), phone)",Chrome 103.0.5060.114,,,2022-07-11 12:37:40,2022-07-11 12:37:40,0.054s,ERROR
+,,,,,,,
+Test Cases/Authentication/TC02 - Register Valid and Invalid,Chrome 103.0.5060.114,,,2022-07-11 12:37:40,2022-07-11 12:37:58,18.180s,ERROR
+openBrowser(WebsiteUrl),Chrome 103.0.5060.114,,,2022-07-11 12:37:40,2022-07-11 12:37:50,10.039s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-11 12:37:50,2022-07-11 12:37:55,5.019s,PASSED
+"click(findTestObject(""Home/btn_RegisterNowMenu""))",Chrome 103.0.5060.114,,,2022-07-11 12:37:55,2022-07-11 12:37:56,0.970s,PASSED
+"verifyElementPresent(findTestObject(""RegisterNow/setText_UsernameRegister""), 3)",Chrome 103.0.5060.114,,,2022-07-11 12:37:56,2022-07-11 12:37:57,0.559s,PASSED
+"setText(findTestObject(""RegisterNow/setText_UsernameRegister""), username)",Chrome 103.0.5060.114,,,2022-07-11 12:37:57,2022-07-11 12:37:58,0.761s,PASSED
+"setText(findTestObject(""RegisterNow/setText_EmailRegis""), email)",Chrome 103.0.5060.114,,,2022-07-11 12:37:58,2022-07-11 12:37:58,0.765s,PASSED
+"setText(findTestObject(""RegisterNow/setText_PhoneNumber""), phone)",Chrome 103.0.5060.114,,,2022-07-11 12:37:58,2022-07-11 12:37:58,0.052s,ERROR
+,,,,,,,
+Test Cases/Authentication/TC02 - Register Valid and Invalid,Chrome 103.0.5060.114,,,2022-07-11 12:37:59,2022-07-11 12:38:43,43.987s,ERROR
+openBrowser(WebsiteUrl),Chrome 103.0.5060.114,,,2022-07-11 12:37:59,2022-07-11 12:38:34,35.551s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-11 12:38:34,2022-07-11 12:38:39,5.013s,PASSED
+"click(findTestObject(""Home/btn_RegisterNowMenu""))",Chrome 103.0.5060.114,,,2022-07-11 12:38:39,2022-07-11 12:38:40,1.341s,PASSED
+"verifyElementPresent(findTestObject(""RegisterNow/setText_UsernameRegister""), 3)",Chrome 103.0.5060.114,,,2022-07-11 12:38:40,2022-07-11 12:38:41,0.585s,PASSED
+"setText(findTestObject(""RegisterNow/setText_UsernameRegister""), username)",Chrome 103.0.5060.114,,,2022-07-11 12:38:41,2022-07-11 12:38:42,0.683s,PASSED
+"setText(findTestObject(""RegisterNow/setText_EmailRegis""), email)",Chrome 103.0.5060.114,,,2022-07-11 12:38:42,2022-07-11 12:38:42,0.740s,PASSED
+"setText(findTestObject(""RegisterNow/setText_PhoneNumber""), phone)",Chrome 103.0.5060.114,,,2022-07-11 12:38:42,2022-07-11 12:38:43,0.044s,ERROR

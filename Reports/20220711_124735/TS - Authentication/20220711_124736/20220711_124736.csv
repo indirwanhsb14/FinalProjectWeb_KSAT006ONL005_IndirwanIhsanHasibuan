@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Authentication,Chrome 103.0.5060.114,,,2022-07-11 12:47:39,2022-07-11 12:55:30,7m - 50.744s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC02 - Register Valid and Invalid,Chrome 103.0.5060.114,,,2022-07-11 12:47:40,2022-07-11 12:49:45,2m - 5.614s,PASSED
+openBrowser(WebsiteUrl),Chrome 103.0.5060.114,,,2022-07-11 12:47:40,2022-07-11 12:47:52,11.763s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-11 12:47:52,2022-07-11 12:47:57,5.095s,PASSED
+"click(findTestObject(""Home/btn_RegisterNowMenu""))",Chrome 103.0.5060.114,,,2022-07-11 12:47:57,2022-07-11 12:47:59,2.334s,PASSED
+"clearText(findTestObject(""RegisterNow/input_Username or E-mail""), STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-11 12:47:59,2022-07-11 12:48:33,34.011s,PASSED
+"setText(findTestObject(""RegisterNow/setText_UsernameRegister""), username)",Chrome 103.0.5060.114,,,2022-07-11 12:48:33,2022-07-11 12:48:34,0.908s,PASSED
+"clearText(findTestObject(""RegisterNow/setText_EmailRegis""))",Chrome 103.0.5060.114,,,2022-07-11 12:48:34,2022-07-11 12:48:35,0.517s,PASSED
+"setText(findTestObject(""RegisterNow/setText_EmailRegis""), email)",Chrome 103.0.5060.114,,,2022-07-11 12:48:35,2022-07-11 12:48:36,0.911s,PASSED
+"setText(findTestObject(""RegisterNow/setText_PhoneNumber""), phonenumber)",Chrome 103.0.5060.114,,,2022-07-11 12:48:36,2022-07-11 12:48:36,0.886s,PASSED
+"setText(findTestObject(""RegisterNow/setText_PasswordRegister""), password)",Chrome 103.0.5060.114,,,2022-07-11 12:48:36,2022-07-11 12:49:40,1m - 3.262s,PASSED
+"setText(findTestObject(""RegisterNow/setText_ConfirmPassword""), confirmpassword)",Chrome 103.0.5060.114,,,2022-07-11 12:49:40,2022-07-11 12:49:41,0.904s,PASSED
+"setText(findTestObject(""RegisterNow/setText_Address""), address)",Chrome 103.0.5060.114,,,2022-07-11 12:49:41,2022-07-11 12:49:41,0.857s,PASSED
+"click(findTestObject(""RegisterNow/btn_RegisterNow""), STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-11 12:49:41,2022-07-11 12:49:44,2.401s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 103.0.5060.114,,,2022-07-11 12:49:44,2022-07-11 12:49:45,1.284s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC02 - Register Valid and Invalid,Chrome 103.0.5060.114,,,2022-07-11 12:49:45,2022-07-11 12:51:40,1m - 54.989s,PASSED
+openBrowser(WebsiteUrl),Chrome 103.0.5060.114,,,2022-07-11 12:49:45,2022-07-11 12:49:53,7.349s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-11 12:49:53,2022-07-11 12:49:58,5.017s,PASSED
+"click(findTestObject(""Home/btn_RegisterNowMenu""))",Chrome 103.0.5060.114,,,2022-07-11 12:49:58,2022-07-11 12:49:58,0.641s,PASSED
+"clearText(findTestObject(""RegisterNow/input_Username or E-mail""), STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-11 12:49:58,2022-07-11 12:50:30,31.602s,PASSED
+"setText(findTestObject(""RegisterNow/setText_UsernameRegister""), username)",Chrome 103.0.5060.114,,,2022-07-11 12:50:30,2022-07-11 12:50:31,0.773s,PASSED
+"clearText(findTestObject(""RegisterNow/setText_EmailRegis""))",Chrome 103.0.5060.114,,,2022-07-11 12:50:31,2022-07-11 12:50:31,0.390s,PASSED
+"setText(findTestObject(""RegisterNow/setText_EmailRegis""), email)",Chrome 103.0.5060.114,,,2022-07-11 12:50:31,2022-07-11 12:50:32,0.744s,PASSED
+"setText(findTestObject(""RegisterNow/setText_PhoneNumber""), phonenumber)",Chrome 103.0.5060.114,,,2022-07-11 12:50:32,2022-07-11 12:50:33,0.770s,PASSED
+"setText(findTestObject(""RegisterNow/setText_PasswordRegister""), password)",Chrome 103.0.5060.114,,,2022-07-11 12:50:33,2022-07-11 12:51:36,1m - 3.029s,PASSED
+"setText(findTestObject(""RegisterNow/setText_ConfirmPassword""), confirmpassword)",Chrome 103.0.5060.114,,,2022-07-11 12:51:36,2022-07-11 12:51:36,0.768s,PASSED
+"setText(findTestObject(""RegisterNow/setText_Address""), address)",Chrome 103.0.5060.114,,,2022-07-11 12:51:36,2022-07-11 12:51:37,0.749s,PASSED
+"click(findTestObject(""RegisterNow/btn_RegisterNow""), STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-11 12:51:37,2022-07-11 12:51:40,2.342s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 103.0.5060.114,,,2022-07-11 12:51:40,2022-07-11 12:51:40,0.788s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC02 - Register Valid and Invalid,Chrome 103.0.5060.114,,,2022-07-11 12:51:40,2022-07-11 12:53:35,1m - 54.054s,PASSED
+openBrowser(WebsiteUrl),Chrome 103.0.5060.114,,,2022-07-11 12:51:40,2022-07-11 12:51:47,6.304s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-11 12:51:47,2022-07-11 12:51:52,5.004s,PASSED
+"click(findTestObject(""Home/btn_RegisterNowMenu""))",Chrome 103.0.5060.114,,,2022-07-11 12:51:52,2022-07-11 12:51:52,0.644s,PASSED
+"clearText(findTestObject(""RegisterNow/input_Username or E-mail""), STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-11 12:51:52,2022-07-11 12:52:24,31.585s,PASSED
+"setText(findTestObject(""RegisterNow/setText_UsernameRegister""), username)",Chrome 103.0.5060.114,,,2022-07-11 12:52:24,2022-07-11 12:52:25,0.684s,PASSED
+"clearText(findTestObject(""RegisterNow/setText_EmailRegis""))",Chrome 103.0.5060.114,,,2022-07-11 12:52:25,2022-07-11 12:52:25,0.394s,PASSED
+"setText(findTestObject(""RegisterNow/setText_EmailRegis""), email)",Chrome 103.0.5060.114,,,2022-07-11 12:52:25,2022-07-11 12:52:26,0.732s,PASSED
+"setText(findTestObject(""RegisterNow/setText_PhoneNumber""), phonenumber)",Chrome 103.0.5060.114,,,2022-07-11 12:52:26,2022-07-11 12:52:27,0.742s,PASSED
+"setText(findTestObject(""RegisterNow/setText_PasswordRegister""), password)",Chrome 103.0.5060.114,,,2022-07-11 12:52:27,2022-07-11 12:53:30,1m - 3.155s,PASSED
+"setText(findTestObject(""RegisterNow/setText_ConfirmPassword""), confirmpassword)",Chrome 103.0.5060.114,,,2022-07-11 12:53:30,2022-07-11 12:53:30,0.745s,PASSED
+"setText(findTestObject(""RegisterNow/setText_Address""), address)",Chrome 103.0.5060.114,,,2022-07-11 12:53:30,2022-07-11 12:53:31,0.733s,PASSED
+"click(findTestObject(""RegisterNow/btn_RegisterNow""), STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-11 12:53:31,2022-07-11 12:53:34,2.519s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 103.0.5060.114,,,2022-07-11 12:53:34,2022-07-11 12:53:35,0.799s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC02 - Register Valid and Invalid,Chrome 103.0.5060.114,,,2022-07-11 12:53:35,2022-07-11 12:55:30,1m - 55.288s,PASSED
+openBrowser(WebsiteUrl),Chrome 103.0.5060.114,,,2022-07-11 12:53:35,2022-07-11 12:53:41,6.570s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-11 12:53:41,2022-07-11 12:53:46,5.007s,PASSED
+"click(findTestObject(""Home/btn_RegisterNowMenu""))",Chrome 103.0.5060.114,,,2022-07-11 12:53:46,2022-07-11 12:53:47,0.793s,PASSED
+"clearText(findTestObject(""RegisterNow/input_Username or E-mail""), STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-11 12:53:47,2022-07-11 12:54:18,31.501s,PASSED
+"setText(findTestObject(""RegisterNow/setText_UsernameRegister""), username)",Chrome 103.0.5060.114,,,2022-07-11 12:54:18,2022-07-11 12:54:19,0.700s,PASSED
+"clearText(findTestObject(""RegisterNow/setText_EmailRegis""))",Chrome 103.0.5060.114,,,2022-07-11 12:54:19,2022-07-11 12:54:20,0.377s,PASSED
+"setText(findTestObject(""RegisterNow/setText_EmailRegis""), email)",Chrome 103.0.5060.114,,,2022-07-11 12:54:20,2022-07-11 12:54:20,0.708s,PASSED
+"setText(findTestObject(""RegisterNow/setText_PhoneNumber""), phonenumber)",Chrome 103.0.5060.114,,,2022-07-11 12:54:20,2022-07-11 12:54:21,0.706s,PASSED
+"setText(findTestObject(""RegisterNow/setText_PasswordRegister""), password)",Chrome 103.0.5060.114,,,2022-07-11 12:54:21,2022-07-11 12:55:24,1m - 3.267s,PASSED
+"setText(findTestObject(""RegisterNow/setText_ConfirmPassword""), confirmpassword)",Chrome 103.0.5060.114,,,2022-07-11 12:55:24,2022-07-11 12:55:25,0.782s,PASSED
+"setText(findTestObject(""RegisterNow/setText_Address""), address)",Chrome 103.0.5060.114,,,2022-07-11 12:55:25,2022-07-11 12:55:26,0.814s,PASSED
+"click(findTestObject(""RegisterNow/btn_RegisterNow""), STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-11 12:55:26,2022-07-11 12:55:29,3.253s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 103.0.5060.114,,,2022-07-11 12:55:29,2022-07-11 12:55:30,0.775s,PASSED
