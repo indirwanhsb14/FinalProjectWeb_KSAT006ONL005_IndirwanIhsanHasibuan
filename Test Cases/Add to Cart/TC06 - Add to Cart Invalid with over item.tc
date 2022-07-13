@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06 - Add to Cart Invalid with over item</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e42ce71-972c-4090-84df-a6041981ee5d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09a5e5be-828a-4c10-b207-0c667a6a8202</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'-25'</defaultValue>
+      <description></description>
+      <id>09a5e5be-828a-4c10-b207-0c667a6a8202</id>
+      <masked>false</masked>
+      <name>qty</name>
+   </variable>
+</TestCaseEntity>
