@@ -17,27 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
 WebUI.navigateToUrl(GlobalVariable.WebsiteUrl)
 
-WebUI.delay(2)
+WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('Home/btn_Shop'), 0)
+WebUI.waitForElementVisible(findTestObject('Home/btn_Shop'), 0)
 
 WebUI.click(findTestObject('Home/btn_Shop'))
 
 WebUI.click(findTestObject('Add to Cart/img_ProductBeanie'))
 
-WebUI.verifyElementPresent(findTestObject('Add to Cart/verify_ImgProduct'), 0)
+WebUI.waitForElementVisible(findTestObject('Add to Cart/verify_ImgProduct'), 5)
+
+WebUI.waitForElementVisible(findTestObject('Add to Cart/setText_QtyProduct'), 5)
+
+WebUI.click(findTestObject('Add to Cart/setText_QtyProduct'))
 
 WebUI.clearText(findTestObject('Add to Cart/setText_QtyProduct'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Add to Cart/setText_QtyProduct'), '2')
+WebUI.setText(findTestObject('Add to Cart/setText_QtyProduct'), qty)
 
-WebUI.verifyElementPresent(findTestObject('Add to Cart/viewText_ProductAlbum'), 0)
+WebUI.waitForElementVisible(findTestObject('Add to Cart/viewText_ProductAlbum'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Add to Cart/viewText_PriceProduct'), 0)
+WebUI.delay(5)
 
-WebUI.waitForElementPresent(findTestObject('Cart/Action button/button_Add to cart'), 0)
+WebUI.verifyElementPresent(findTestObject('Add to Cart/viewText_PriceProduct'), 5)
 
 WebUI.click(findTestObject('Add to Cart/button_Add to cart'))
 

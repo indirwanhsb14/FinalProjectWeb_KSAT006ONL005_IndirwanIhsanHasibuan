@@ -39,6 +39,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/RegisterNow/input_Username or E-mail_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Add to Cart/setText_QtyProduct",
+      "brokenLocator": "//input[@id\u003d\u0027quantity_62cb67e38ed9f\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027product-17\u0027]/div/div/div[2]/div/form/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Add to Cart/setText_QtyProduct_idRelative.png"
     }
   ]
 }

@@ -15,7 +15,7 @@
       <guid>9d43b466-068a-43f4-99f1-3c8bf80592f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentication/TC02 - Register Valid and Invalid</testCaseId>
+      <testCaseId>Test Cases/Register/TC01 - Register Valid and Invalid</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>21ac8238-1b8b-4894-9de5-83a6e7f6867d</id>

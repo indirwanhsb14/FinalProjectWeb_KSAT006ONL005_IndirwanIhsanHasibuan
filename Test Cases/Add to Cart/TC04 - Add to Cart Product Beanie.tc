@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a67b1ae2-a030-437c-b419-fe9c92c97c3c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9e4f037-19f3-4834-afcd-ee71fc19b347</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>f9e4f037-19f3-4834-afcd-ee71fc19b347</id>
+      <masked>false</masked>
+      <name>qty</name>
+   </variable>
 </TestCaseEntity>
